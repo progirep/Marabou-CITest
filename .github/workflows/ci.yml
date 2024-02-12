@@ -121,7 +121,7 @@ jobs:
         working-directory: build
 
       - name: Test the CNN example
-        run: ../build/bin/Marabou simple_cnn_model.onnx prop_versuch.txt
+        run: ../build/bin/Marabou simple_cnn_model.onnx example_property.txt
         working-directory: tests
 
       - name: Python Bindings Install Check
