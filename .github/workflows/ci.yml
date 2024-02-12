@@ -122,7 +122,7 @@ jobs:
 
       - name: Test the CNN example
         run: ../build/bin/Marabou simple_cnn_model.onnx prop_versuch.txt
-        working-directory: testing
+        working-directory: tests
 
       - name: Python Bindings Install Check
         run: |
